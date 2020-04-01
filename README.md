@@ -7,9 +7,7 @@
 </h3>
 
 
-[![Packagist](https://img.shields.io/packagist/v/wovosoft/laravel-permissions.svg)](https://packagist.org/packages/wovosoft/laravel-permissions)
-[![Packagist](https://poser.pugx.org/wovosoft/laravel-permissions/d/total.svg)](https://packagist.org/packages/wovosoft/laravel-permissions)
-[![Packagist](https://img.shields.io/packagist/l/wovosoft/laravel-permissions.svg)](https://packagist.org/packages/wovosoft/laravel-permissions)
+[![Latest Stable Version](https://poser.pugx.org/wovosoft/laravel-permissions/v/stable)](https://packagist.org/packages/wovosoft/laravel-permissions) [![Total Downloads](https://poser.pugx.org/wovosoft/laravel-permissions/downloads)](https://packagist.org/packages/wovosoft/laravel-permissions) [![Latest Unstable Version](https://poser.pugx.org/wovosoft/laravel-permissions/v/unstable)](https://packagist.org/packages/wovosoft/laravel-permissions) [![License](https://poser.pugx.org/wovosoft/laravel-permissions/license)](https://packagist.org/packages/wovosoft/laravel-permissions)
 
 ## Package description
 The package is a Front-End Implementationf of the [spatie/laravel-permission](https://github.com/spatie/laravel-permission) package. The [spatie/laravel-permission](https://github.com/spatie/laravel-permission)
