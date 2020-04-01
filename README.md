@@ -131,7 +131,7 @@ php artisan route:list
 5. The gates are automatically registered during boot-up by [spatie/laravel-permission](https://github.com/spatie/laravel-permission)
 
 ## Usage
-1. So, according to # 7 you can perform user abilities as follows:
+1. So, according to `config/laravel-permissions.php` (#3) you can perform user abilities as follows:
 
 ```php
 if(auth()->can('permission')){
