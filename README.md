@@ -3,7 +3,7 @@
     <img src="https://github.com/wovosoft/bootstrap-vue-font-awesome-picker/blob/master/wovosoft.png" alt="Wovosoft Software Development Compnay"  height="72">
   </a>
 </p>
-<h3 align="center">Laravel Role & Permissions using <a href="https://github.com/spatie/laravel-permission">spatie/laravel-permission</a>
+<h3 align="center">Laravel Role & Permissions Front-End Implementation using <a href="https://github.com/spatie/laravel-permission">spatie/laravel-permission</a>
 </h3>
 
 
