@@ -20,7 +20,7 @@ is an awesome package for managing Roles & Permissionf for Laravel applications 
 - Vue Components for each possible features .
 - Components are reusable. So, the default layout can be modified according to the needs of your application.
 - Currently the front-end uses Bootstrap-Vue. But you can easily change it's layout.
-- The front-end vue components are packaged as a npm package. You can use it as module for you bundlers eg. Webpack,
+- The front-end vue components are packaged as an npm package. You can use it as a module for you bundlers eg. Webpack,
 - Check the main [spatie/laravel-permission](https://github.com/spatie/laravel-permission) for more details.
 
 ## Installation
@@ -122,7 +122,7 @@ return [
 
 ```
 
-4. The package adds the routes automatically prefixed by `backend`, so your other routes should't be prefixed by `backend`. But you can change it in `config/laravel-permissions.php` config file. To check the registered routes, run in your terminal from project root,
+4. The package adds the routes automatically prefixed by `backend`, so your other routes should't be prefixed by `backend`. But you can change it in `config/laravel-permissions.php` config file. To check the registered routes, run in your terminal from project the root,
 
 ```bash
 php artisan route:list
@@ -156,12 +156,12 @@ if($role->hasAbility('permission')){
 
 ### Note
 
-> Please keep in mind, the Default Role and Permission models provided by [spatie/laravel-permission](https://github.com/spatie/laravel-permission) is extended in the package. That's why rather using `Spatie\Permission\Models\Role` for Role and `Spatie\Permission\Models\Permission` please use `Wovosoft\LaravelPermissions\Models\Roles` for Role and `Wovosoft\LaravelPermissions\Models\Permissions` for Permission respectively.
+> Please keep in mind, the default Role and Permission models provided by [spatie/laravel-permission](https://github.com/spatie/laravel-permission) is extended in the package. That's why rather than using `Spatie\Permission\Models\Role` for Role and `Spatie\Permission\Models\Permission` please use `Wovosoft\LaravelPermissions\Models\Roles` for Role and `Wovosoft\LaravelPermissions\Models\Permissions` for Permission respectively.
 
 ## Security
 
 If you discover any security related issues, please email narayanadhikary24@gmail.com
-instead of using the issue tracker.
+ore create issue in the Github Repository.
 
 ## Credits
 
