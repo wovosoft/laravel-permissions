@@ -3,8 +3,7 @@
     <img src="https://github.com/wovosoft/bootstrap-vue-font-awesome-picker/blob/master/wovosoft.png" alt="Wovosoft Software Development Compnay"  height="72">
   </a>
 </p>
-<h3 align="center">Laravel Role & Permissions Front-End Implementation using <a href="https://github.com/spatie/laravel-permission">spatie/laravel-permission</a>
-</h3>
+# Laravel Role & Permissions Front-End Implementation using [spatie/laravel-permission](https://github.com/spatie/laravel-permission)
 
 
 [![Latest Stable Version](https://poser.pugx.org/wovosoft/laravel-permissions/v/stable)](https://packagist.org/packages/wovosoft/laravel-permissions) [![Total Downloads](https://poser.pugx.org/wovosoft/laravel-permissions/downloads)](https://packagist.org/packages/wovosoft/laravel-permissions) [![Latest Unstable Version](https://poser.pugx.org/wovosoft/laravel-permissions/v/unstable)](https://packagist.org/packages/wovosoft/laravel-permissions) [![License](https://poser.pugx.org/wovosoft/laravel-permissions/license)](https://packagist.org/packages/wovosoft/laravel-permissions)
