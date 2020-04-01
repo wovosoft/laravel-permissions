@@ -7,10 +7,6 @@
 </h3>
 
 
-[![Build Status](https://travis-ci.org/wovosoft/laravel-permissions.svg?branch=master)](https://travis-ci.org/wovosoft/laravel-permissions)
-[![styleci](https://styleci.io/repos/CHANGEME/shield)](https://styleci.io/repos/CHANGEME)
-[![Coverage Status](https://coveralls.io/repos/github/wovosoft/laravel-permissions/badge.svg?branch=master)](https://coveralls.io/github/wovosoft/laravel-permissions?branch=master)
-
 [![Packagist](https://img.shields.io/packagist/v/wovosoft/laravel-permissions.svg)](https://packagist.org/packages/wovosoft/laravel-permissions)
 [![Packagist](https://poser.pugx.org/wovosoft/laravel-permissions/d/total.svg)](https://packagist.org/packages/wovosoft/laravel-permissions)
 [![Packagist](https://img.shields.io/packagist/l/wovosoft/laravel-permissions.svg)](https://packagist.org/packages/wovosoft/laravel-permissions)
