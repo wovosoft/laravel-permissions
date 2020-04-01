@@ -156,7 +156,7 @@ if($role->hasAbility('permission')){
 
 ## Note
 
-> Please keep in mind, the default Role and Permission models provided by [spatie/laravel-permission](https://github.com/spatie/laravel-permission) is extended in the package. That's why rather than using `Spatie\Permission\Models\Role` for Role and `Spatie\Permission\Models\Permission` please use `Wovosoft\LaravelPermissions\Models\Roles` for Role and `Wovosoft\LaravelPermissions\Models\Permissions` for Permission respectively.
+> Please keep in mind, the default Role and Permission models provided by [spatie/laravel-permission](https://github.com/spatie/laravel-permission) are extended in the package. That's why rather than using `Spatie\Permission\Models\Role` for Role and `Spatie\Permission\Models\Permission` please use `Wovosoft\LaravelPermissions\Models\Roles` for Role and `Wovosoft\LaravelPermissions\Models\Permissions` for Permission respectively.
 
 ## Example Project 
 Click here to check the demo project [https://github.com/wovosoft/laravel-permissions-example](https://github.com/wovosoft/laravel-permissions-example)
