@@ -1,0 +1,38 @@
+{
+    "name": "laravel-permissions",
+    "version": "1.0.0",
+    "scripts": {
+        "serve": "vue-cli-service serve",
+        "build": "vue-cli-service build",
+        "build:rollup": "rollup -c --environment BUILD:production",
+        "lint": "vue-cli-service lint"
+    },
+    "files": [
+      "src",
+        "dist"
+    ],
+    "description": "Front-End for composer package wovosoft/laravel-permissions",
+    "main": "src/index.js",
+    "source": "src/index.js",
+    "repository": "https://github.com/wovosoft/laravel-permissions",
+    "author": "Narayan Adhikary",
+    "license": "MIT",
+    "dependencies": {
+        "bootstrap": "^4.4.1",
+        "vue": "^2.6.11"
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-babel": "~4.2.0",
+        "@vue/cli-plugin-eslint": "~4.2.0",
+        "@vue/cli-service": "~4.2.0",
+        "babel-eslint": "^10.0.3",
+        "core-js": "^3.6.4",
+        "eslint": "^6.7.2",
+        "eslint-plugin-vue": "^6.1.2",
+        "node-sass": "^4.13.1",
+        "rollup": "*",
+        "rollup-plugin-vue": "^5.1.6",
+        "sass-loader": "^8.0.2",
+        "vue-template-compiler": "^2.6.11"
+    }
+}

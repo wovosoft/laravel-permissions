@@ -1,0 +1,67 @@
+{
+    "name": "wovosoft/laravel-permissions",
+    "description": "Roles and Permissions Implementation for https://github.com/spatie/laravel-permission using Laravel and Bootstrap-Vue",
+    "license": "MIT",
+    "homepage": "https://github.com/wovosoft/laravel-permissions",
+    "version": "1.0.0",
+    "keywords": [
+        "Spatie",
+        "permissions",
+        "roles",
+        "user management",
+        "role management",
+        "authentication",
+        "authorization",
+        "front-end",
+        "wovosoft",
+        "bornodhoni"
+    ],
+    "type": "library",
+    "authors": [
+        {
+            "name": "Narayan Adhikary",
+            "email": "narayanadhikary24@gmail.com",
+            "homepage": "https://narayanadhikary.com"
+        },
+        {
+            "name": "WovoSoft",
+            "email": "wovosoft@gmail.com",
+            "homepage": "https://wovosoft.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "illuminate/support": "^7.0",
+        "spatie/laravel-permission": "^3.11",
+        "ext-json": "^1.7"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^4.0",
+        "phpunit/phpunit": "^8.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wovosoft\\LaravelPermissions\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Wovosoft\\LaravelPermissions\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "phpunit": "phpunit"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Wovosoft\\LaravelPermissions\\ServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    }
+}
