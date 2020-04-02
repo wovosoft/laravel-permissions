@@ -164,7 +164,7 @@ Click here to check the demo project [https://github.com/wovosoft/laravel-permis
 ## Security
 
 If you discover any security related issues, please email narayanadhikary24@gmail.com
-ore create issue in the Github Repository.
+or create issue in the Github Repository.
 
 ## Credits
 
