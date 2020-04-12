@@ -1,5 +1,6 @@
 <template>
-    <div class="container" id="tabs_list">
+    <div>
+        <breadcrumb></breadcrumb>
         <b-card no-body>
             <b-tabs small>
                 <b-tab title="Users" lazy>
@@ -28,7 +29,7 @@
     // import Users from "./components/users/List";
     // import UserAbility from "./components/ability_test/UserAbility"
     // import RoleAbility from "./components/ability_test/RoleAbility";
-
+    import Breadcrumb from "../../../../../../resources/js/components/Breadcrumb";
 
     export default {
         components: {
@@ -36,7 +37,8 @@
             Permissions: () => import("./components/permissions/List"),
             Users: () => import("./components/users/List"),
             UserAbility: () => import("./components/ability_test/UserAbility"),
-            RoleAbility: () => import("./components/ability_test/RoleAbility")
+            RoleAbility: () => import("./components/ability_test/RoleAbility"),
+            Breadcrumb
         }
     }
 </script>

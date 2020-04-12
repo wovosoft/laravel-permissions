@@ -87,7 +87,7 @@ class PermissionController extends Controller
     public function list(Request $request)
     {
         try {
-            $table = config("laravel-permissions.permissions_table");
+            $table = config("permission.table_names.permissions");
             $items = (new QueryBuilder(ItemModel::class))
                 ->select([
                     "$table.*"

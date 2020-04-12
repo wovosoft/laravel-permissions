@@ -74,7 +74,7 @@ class RoleController extends Controller
     public function list(Request $request)
     {
         try {
-            $roles_table = config("laravel-permissions.roles_table");
+            $roles_table = config("permission.table_names.roles");
             $items = (new QueryBuilder(ItemModel::class))
                 ->select([
                     "$roles_table.*"
