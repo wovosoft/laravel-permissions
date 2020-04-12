@@ -87,11 +87,8 @@ class PermissionController extends Controller
     public function list(Request $request)
     {
         try {
-<<<<<<< HEAD
-            $table = config("permission.table_names.permissions");
-=======
             $table = config('permission.table_names.permissions');
->>>>>>> 72863d9ffa8fbe754213bb60634512258bc05810
+
             $items = (new QueryBuilder(ItemModel::class))
                 ->select([
                     "$table.*"
