@@ -74,7 +74,11 @@ class RoleController extends Controller
     public function list(Request $request)
     {
         try {
+<<<<<<< HEAD
             $roles_table = config("permission.table_names.roles");
+=======
+            $roles_table = config('permission.table_names.roles');
+>>>>>>> 72863d9ffa8fbe754213bb60634512258bc05810
             $items = (new QueryBuilder(ItemModel::class))
                 ->select([
                     "$roles_table.*"

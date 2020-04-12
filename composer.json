@@ -3,7 +3,7 @@
     "description": "Roles and Permissions Implementation for https://github.com/spatie/laravel-permission using Laravel and Bootstrap-Vue",
     "license": "MIT",
     "homepage": "https://github.com/wovosoft/laravel-permissions",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "keywords": [
         "Spatie",
         "permissions",

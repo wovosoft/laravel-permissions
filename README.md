@@ -3,17 +3,11 @@
     <img src="https://github.com/wovosoft/bootstrap-vue-font-awesome-picker/blob/master/wovosoft.png" alt="Wovosoft Software Development Compnay"  height="72">
   </a>
 </p>
-<h3 align="center">Laravel Role & Permissions using <a href="https://github.com/spatie/laravel-permission">spatie/laravel-permission</a>
-</h3>
+
+# Laravel Role & Permissions Front-End Implementation using [spatie/laravel-permission](https://github.com/spatie/laravel-permission)
 
 
-[![Build Status](https://travis-ci.org/wovosoft/laravel-permissions.svg?branch=master)](https://travis-ci.org/wovosoft/laravel-permissions)
-[![styleci](https://styleci.io/repos/CHANGEME/shield)](https://styleci.io/repos/CHANGEME)
-[![Coverage Status](https://coveralls.io/repos/github/wovosoft/laravel-permissions/badge.svg?branch=master)](https://coveralls.io/github/wovosoft/laravel-permissions?branch=master)
-
-[![Packagist](https://img.shields.io/packagist/v/wovosoft/laravel-permissions.svg)](https://packagist.org/packages/wovosoft/laravel-permissions)
-[![Packagist](https://poser.pugx.org/wovosoft/laravel-permissions/d/total.svg)](https://packagist.org/packages/wovosoft/laravel-permissions)
-[![Packagist](https://img.shields.io/packagist/l/wovosoft/laravel-permissions.svg)](https://packagist.org/packages/wovosoft/laravel-permissions)
+[![Latest Stable Version](https://poser.pugx.org/wovosoft/laravel-permissions/v/stable)](https://packagist.org/packages/wovosoft/laravel-permissions) [![Total Downloads](https://poser.pugx.org/wovosoft/laravel-permissions/downloads)](https://packagist.org/packages/wovosoft/laravel-permissions) [![Latest Unstable Version](https://poser.pugx.org/wovosoft/laravel-permissions/v/unstable)](https://packagist.org/packages/wovosoft/laravel-permissions) [![License](https://poser.pugx.org/wovosoft/laravel-permissions/license)](https://packagist.org/packages/wovosoft/laravel-permissions)
 
 ## Package description
 The package is a Front-End Implementationf of the [spatie/laravel-permission](https://github.com/spatie/laravel-permission) package. The [spatie/laravel-permission](https://github.com/spatie/laravel-permission)
@@ -26,7 +20,7 @@ is an awesome package for managing Roles & Permissionf for Laravel applications 
 - Vue Components for each possible features .
 - Components are reusable. So, the default layout can be modified according to the needs of your application.
 - Currently the front-end uses Bootstrap-Vue. But you can easily change it's layout.
-- The front-end vue components are packaged as a npm package. You can use it as module for you bundlers eg. Webpack,
+- The front-end vue components are packaged as an npm package. You can use it as a module for you bundlers eg. Webpack,
 - Check the main [spatie/laravel-permission](https://github.com/spatie/laravel-permission) for more details.
 
 ## Installation
@@ -128,7 +122,7 @@ return [
 
 ```
 
-4. The package adds the routes automatically prefixed by `backend`, so your other routes should't be prefixed by `backend`. But you can change it in `config/laravel-permissions.php` config file. To check the registered routes, run in your terminal from project root,
+4. The package adds the routes automatically prefixed by `backend`, so your other routes should't be prefixed by `backend`. But you can change it in `config/laravel-permissions.php` config file. To check the registered routes, run in your terminal from project the root,
 
 ```bash
 php artisan route:list
@@ -137,7 +131,7 @@ php artisan route:list
 5. The gates are automatically registered during boot-up by [spatie/laravel-permission](https://github.com/spatie/laravel-permission)
 
 ## Usage
-1. So, according to # 7 you can perform user abilities as follows:
+1. So, according to `config/laravel-permissions.php` (#3) you can perform user abilities as follows:
 
 ```php
 if(auth()->can('permission')){
@@ -160,14 +154,17 @@ if($role->hasAbility('permission')){
 
 2. Check the main [spatie/laravel-permission](https://github.com/spatie/laravel-permission) for more details.
 
-### Note
+## Note
 
-> Please keep in mind, the Default Role and Permission models provided by [spatie/laravel-permission](https://github.com/spatie/laravel-permission) is extended in the package. That's why rather using `Spatie\Permission\Models\Role` for Role and `Spatie\Permission\Models\Permission` please use `Wovosoft\LaravelPermissions\Models\Roles` for Role and `Wovosoft\LaravelPermissions\Models\Permissions` for Permission respectively.
+> Please keep in mind, the default Role and Permission models provided by [spatie/laravel-permission](https://github.com/spatie/laravel-permission) are extended in the package. That's why rather than using `Spatie\Permission\Models\Role` for Role and `Spatie\Permission\Models\Permission` please use `Wovosoft\LaravelPermissions\Models\Roles` for Role and `Wovosoft\LaravelPermissions\Models\Permissions` for Permission respectively.
+
+## Example Project 
+Click here to check the demo project [https://github.com/wovosoft/laravel-permissions-example](https://github.com/wovosoft/laravel-permissions-example)
 
 ## Security
 
 If you discover any security related issues, please email narayanadhikary24@gmail.com
-instead of using the issue tracker.
+or create issue in the Github Repository.
 
 ## Credits
 
