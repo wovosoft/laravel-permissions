@@ -31,8 +31,7 @@
     "require": {
         "php": ">=7.2",
         "illuminate/support": "^7.0",
-        "spatie/laravel-permission": "^3.11",
-        "ext-json": "^1.7"
+        "spatie/laravel-permission": "^3.11"
     },
     "require-dev": {
         "orchestra/testbench": "^4.0",
