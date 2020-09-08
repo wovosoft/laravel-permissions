@@ -29,12 +29,11 @@
         }
     ],
     "require": {
-        "php": ">=7.2",
+        "php": ">=7.3",
         "spatie/laravel-permission": "^3.11"
     },
     "require-dev": {
-        "orchestra/testbench": "^4.0",
-        "phpunit/phpunit": "^8.5"
+        "phpunit/phpunit": "*"
     },
     "autoload": {
         "psr-4": {
@@ -55,10 +54,5 @@
                 "Wovosoft\\LaravelPermissions\\ServiceProvider"
             ]
         }
-    },
-    "config": {
-        "preferred-install": "dist",
-        "sort-packages": true,
-        "optimize-autoloader": true
     }
 }
